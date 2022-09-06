@@ -3,8 +3,8 @@ using namespace std;
 
 class Point
 {
-	string name;
-	int age;
+	int x;
+	int y;
 public:
 	Point()
 	{
