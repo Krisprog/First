@@ -1,27 +1,14 @@
 #include<iostream>
 using namespace std;
 
-class Point
+class Person
 {
-	int x;
-	int y;
+	string name;
+	int age;
 public:
-	
-	Point(int a, int b)
+	Person()
 	{
 
 	}
-	void Init()
-	{
-		cin >> x >> y;
-	}
-	void Print()
-	{
-		cout << x << endl << y << endl;
-	}
+
 };
-int main()
-{
-
-
-}
