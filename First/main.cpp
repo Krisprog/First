@@ -6,16 +6,14 @@ class Point
 	int x;
 	int y;
 public:
-	Point()
+	void Init()
 	{
-
+		cin >> x >> y;
 	}
-	Point(int a, int b)
+	void Print()
 	{
-		x = a;
-		y = b;
+		cout << x << endl << y << endl;
 	}
-
 };
 int main()
 {
