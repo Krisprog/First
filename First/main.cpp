@@ -12,6 +12,11 @@ public:
 	}
 
 };
+class Car
+{
+	string name;
+public:
+};
 
 int main()
 {
