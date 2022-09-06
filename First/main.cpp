@@ -1,14 +1,20 @@
 #include<iostream>
 using namespace std;
 
-class Person
+class Point
 {
 	string name;
 	int age;
 public:
-	Person()
+	Point()
 	{
 
 	}
 
 };
+
+int main()
+{
+
+
+}
