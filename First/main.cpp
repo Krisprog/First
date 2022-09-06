@@ -15,6 +15,7 @@ public:
 
 int main()
 {
-
+	Point a;
+	cout << "Hello world";
 
 }
